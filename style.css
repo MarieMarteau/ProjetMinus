@@ -1,0 +1,48 @@
+/* Icons from the free dataset : http://www.rw-designer.com/cursor-library
+Slider inspiration CSS tricks */
+
+html {
+ height: 100%;
+ max-with:960px;
+ background-image :url(background.png);
+ background-attachment : local;
+}
+
+body {
+	text-align: justify;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-family:Monospace;
+	font-size:13px;
+	text-align:center;
+}
+
+img {
+	position: absolute;
+	width:35px;
+	height:35px;
+	left:10px;
+	top:0px;
+}
+
+
+#outils {
+	position: absolute;
+	top: 0px; width: 20%;
+	color: #000000;
+	padding: 5px;
+	font-family:Monospace;
+	font-size:13px;
+	text-align:left;
+	z-index:1000;
+}
+
+
+#AffichageScene3D{
+  width: 80%;
+  margin-right:245px;
+  border:none;
+  height: 100vh;
+}
